@@ -1,0 +1,243 @@
+Date : 2023-06-05 14:32:51
+Directory : /Users/shanehogan/development/white_ui_supabase4
+Total : 147 files,  10669 codes, 1213 comments, 1074 blanks, all 12956 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |        122 |     10,118 |      1,067 |        992 |     12,177 |
+| JSON       |          4 |        186 |          0 |          4 |        190 |
+| XML        |          9 |        123 |         46 |         11 |        180 |
+| Groovy     |          3 |         88 |          3 |         22 |        113 |
+| HTML       |          1 |         80 |         18 |          7 |        105 |
+| YAML       |          2 |         40 |         78 |         24 |        142 |
+| Markdown   |          2 |         13 |          0 |          9 |         22 |
+| Swift      |          1 |         12 |          0 |          2 |         14 |
+| Properties |          2 |          8 |          1 |          2 |         11 |
+| C++        |          1 |          1 |          0 |          1 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                     |        147 |     10,669 |      1,213 |      1,074 |     12,956 |
+| . (Files)                                                                                                             |          3 |         50 |         78 |         31 |        159 |
+| android                                                                                                               |         12 |        158 |         48 |         33 |        239 |
+| android (Files)                                                                                                       |          3 |         38 |          0 |         10 |         48 |
+| android/app                                                                                                           |          8 |        115 |         47 |         22 |        184 |
+| android/app (Files)                                                                                                   |          1 |         53 |          3 |         13 |         69 |
+| android/app/src                                                                                                       |          7 |         62 |         44 |          9 |        115 |
+| android/app/src/debug                                                                                                 |          1 |          4 |          3 |          1 |          8 |
+| android/app/src/main                                                                                                  |          5 |         54 |         38 |          7 |         99 |
+| android/app/src/main (Files)                                                                                          |          1 |         28 |          6 |          1 |         35 |
+| android/app/src/main/res                                                                                              |          4 |         26 |         32 |          6 |         64 |
+| android/app/src/main/res/drawable                                                                                     |          1 |          4 |          7 |          2 |         13 |
+| android/app/src/main/res/drawable-v21                                                                                 |          1 |          4 |          7 |          2 |         13 |
+| android/app/src/main/res/values                                                                                       |          1 |          9 |          9 |          1 |         19 |
+| android/app/src/main/res/values-night                                                                                 |          1 |          9 |          9 |          1 |         19 |
+| android/app/src/profile                                                                                               |          1 |          4 |          3 |          1 |          8 |
+| android/gradle                                                                                                        |          1 |          5 |          1 |          1 |          7 |
+| android/gradle/wrapper                                                                                                |          1 |          5 |          1 |          1 |          7 |
+| ios                                                                                                                   |          8 |        228 |          2 |         10 |        240 |
+| ios/Runner                                                                                                            |          8 |        228 |          2 |         10 |        240 |
+| ios/Runner (Files)                                                                                                    |          2 |         13 |          0 |          3 |         16 |
+| ios/Runner/Assets.xcassets                                                                                            |          4 |        154 |          0 |          5 |        159 |
+| ios/Runner/Assets.xcassets (Files)                                                                                    |          1 |          6 |          0 |          1 |          7 |
+| ios/Runner/Assets.xcassets/AppIcon.appiconset                                                                         |          1 |        122 |          0 |          1 |        123 |
+| ios/Runner/Assets.xcassets/appstore.imageset                                                                          |          2 |         26 |          0 |          3 |         29 |
+| ios/Runner/Base.lproj                                                                                                 |          2 |         61 |          2 |          2 |         65 |
+| lib                                                                                                                   |        121 |     10,118 |      1,043 |        985 |     12,146 |
+| lib (Files)                                                                                                           |          1 |         80 |          0 |          5 |         85 |
+| lib/auxiliaries                                                                                                       |         54 |      3,648 |        323 |        307 |      4,278 |
+| lib/auxiliaries/helpers                                                                                               |         10 |        890 |         45 |         80 |      1,015 |
+| lib/auxiliaries/helpers (Files)                                                                                       |          4 |        713 |         11 |         54 |        778 |
+| lib/auxiliaries/helpers/formatters                                                                                    |          1 |         64 |         23 |          5 |         92 |
+| lib/auxiliaries/helpers/popups                                                                                        |          3 |         88 |         11 |         10 |        109 |
+| lib/auxiliaries/helpers/states                                                                                        |          2 |         25 |          0 |         11 |         36 |
+| lib/auxiliaries/models                                                                                                |          9 |        609 |         37 |         56 |        702 |
+| lib/auxiliaries/repos                                                                                                 |          8 |        865 |         77 |         78 |      1,020 |
+| lib/auxiliaries/widgets                                                                                               |         27 |      1,284 |        164 |         93 |      1,541 |
+| lib/pages                                                                                                             |         63 |      6,245 |        717 |        651 |      7,613 |
+| lib/pages/authenticated                                                                                               |         34 |      4,551 |        659 |        440 |      5,650 |
+| lib/pages/authenticated/app_view                                                                                      |          4 |        349 |         85 |         50 |        484 |
+| lib/pages/authenticated/feed                                                                                          |          1 |         98 |        171 |         10 |        279 |
+| lib/pages/authenticated/friends                                                                                       |          7 |        903 |         28 |         77 |      1,008 |
+| lib/pages/authenticated/likes                                                                                         |          4 |        488 |         64 |         48 |        600 |
+| lib/pages/authenticated/meet                                                                                          |         10 |      1,619 |        246 |        140 |      2,005 |
+| lib/pages/authenticated/meet (Files)                                                                                  |          5 |        930 |        179 |         81 |      1,190 |
+| lib/pages/authenticated/meet/crew                                                                                     |          5 |        689 |         67 |         59 |        815 |
+| lib/pages/authenticated/profile                                                                                       |          8 |      1,094 |         65 |        115 |      1,274 |
+| lib/pages/authenticated/profile/edit_profile                                                                          |          4 |        669 |          9 |         81 |        759 |
+| lib/pages/authenticated/profile/view_profile                                                                          |          4 |        425 |         56 |         34 |        515 |
+| lib/pages/onboarding                                                                                                  |          6 |        724 |         22 |         54 |        800 |
+| lib/pages/onboarding (Files)                                                                                          |          3 |         62 |          0 |         13 |         75 |
+| lib/pages/onboarding/screens                                                                                          |          3 |        662 |         22 |         41 |        725 |
+| lib/pages/unauthenticated                                                                                             |         23 |        970 |         36 |        157 |      1,163 |
+| lib/pages/unauthenticated/app_intro                                                                                   |          6 |        266 |          0 |         45 |        311 |
+| lib/pages/unauthenticated/app_intro (Files)                                                                           |          1 |         99 |          0 |          9 |        108 |
+| lib/pages/unauthenticated/app_intro/pages                                                                             |          5 |        167 |          0 |         36 |        203 |
+| lib/pages/unauthenticated/auth                                                                                        |         17 |        704 |         36 |        112 |        852 |
+| lib/pages/unauthenticated/auth (Files)                                                                                |          3 |         77 |          6 |         15 |         98 |
+| lib/pages/unauthenticated/auth/dob                                                                                    |          4 |        195 |          9 |         29 |        233 |
+| lib/pages/unauthenticated/auth/name                                                                                   |          4 |        148 |          4 |         25 |        177 |
+| lib/pages/unauthenticated/auth/phone                                                                                  |          6 |        284 |         17 |         43 |        344 |
+| lib/session_navigation                                                                                                |          3 |        145 |          3 |         22 |        170 |
+| test                                                                                                                  |          1 |          0 |         24 |          7 |         31 |
+| web                                                                                                                   |          2 |        115 |         18 |          8 |        141 |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                              | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/shanehogan/development/white_ui_supabase4/README.md                                                            | Markdown   |         10 |          0 |          7 |         17 |
+| /Users/shanehogan/development/white_ui_supabase4/analysis_options.yaml                                                | YAML       |          3 |         23 |          4 |         30 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/build.gradle                                             | Groovy     |         53 |          3 |         13 |         69 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/src/debug/AndroidManifest.xml                            | XML        |          4 |          3 |          1 |          8 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/src/main/AndroidManifest.xml                             | XML        |         28 |          6 |          1 |         35 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/src/main/res/drawable-v21/launch_background.xml          | XML        |          4 |          7 |          2 |         13 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/src/main/res/drawable/launch_background.xml              | XML        |          4 |          7 |          2 |         13 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/src/main/res/values-night/styles.xml                     | XML        |          9 |          9 |          1 |         19 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/src/main/res/values/styles.xml                           | XML        |          9 |          9 |          1 |         19 |
+| /Users/shanehogan/development/white_ui_supabase4/android/app/src/profile/AndroidManifest.xml                          | XML        |          4 |          3 |          1 |          8 |
+| /Users/shanehogan/development/white_ui_supabase4/android/build.gradle                                                 | Groovy     |         27 |          0 |          5 |         32 |
+| /Users/shanehogan/development/white_ui_supabase4/android/gradle.properties                                            | Properties |          3 |          0 |          1 |          4 |
+| /Users/shanehogan/development/white_ui_supabase4/android/gradle/wrapper/gradle-wrapper.properties                     | Properties |          5 |          1 |          1 |          7 |
+| /Users/shanehogan/development/white_ui_supabase4/android/settings.gradle                                              | Groovy     |          8 |          0 |          4 |         12 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/AppDelegate.swift                                         | Swift      |         12 |          0 |          2 |         14 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json          | JSON       |        122 |          0 |          1 |        123 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/Assets.xcassets/Contents.json                             | JSON       |          6 |          0 |          1 |          7 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/Assets.xcassets/appstore.imageset/Contents.json           | JSON       |         23 |          0 |          1 |         24 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/Assets.xcassets/appstore.imageset/README.md               | Markdown   |          3 |          0 |          2 |          5 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/Base.lproj/LaunchScreen.storyboard                        | XML        |         36 |          1 |          1 |         38 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/Base.lproj/Main.storyboard                                | XML        |         25 |          1 |          1 |         27 |
+| /Users/shanehogan/development/white_ui_supabase4/ios/Runner/Runner-Bridging-Header.h                                  | C++        |          1 |          0 |          1 |          2 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/formatters/date_textfield_formatter.dart     | Dart       |         64 |         23 |          5 |         92 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/local_functions.dart                         | Dart       |        625 |          8 |         38 |        671 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/palette.dart                                 | Dart       |         18 |          1 |          2 |         21 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/popups/create_route_popup.dart               | Dart       |         16 |          0 |          4 |         20 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/popups/image_source_sheet.dart               | Dart       |         63 |         11 |          4 |         78 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/popups/snack_bar.dart                        | Dart       |          9 |          0 |          2 |         11 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/precache_image_data.dart                     | Dart       |         27 |          1 |          3 |         31 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/scroll_to_hide_widget.dart                   | Dart       |         43 |          1 |         11 |         55 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/states/form_submission_status.dart           | Dart       |         12 |          0 |          6 |         18 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/states/loading_state.dart                    | Dart       |         13 |          0 |          5 |         18 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/crew.dart                                     | Dart       |         92 |          7 |          7 |        106 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/crew_request.dart                             | Dart       |         53 |         20 |          6 |         79 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/friend_request.dart                           | Dart       |         32 |          1 |          6 |         39 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/friendship.dart                               | Dart       |         29 |          1 |          6 |         36 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/like.dart                                     | Dart       |         45 |          1 |          6 |         52 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/match.dart                                    | Dart       |         49 |          1 |          6 |         56 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/match_confirmation.dart                       | Dart       |         59 |          1 |          6 |         66 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/profile.dart                                  | Dart       |        224 |          4 |          8 |        236 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/venue.dart                                    | Dart       |         26 |          1 |          5 |         32 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/auth_repository.dart                           | Dart       |        236 |         37 |         12 |        285 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/crew_repository.dart                           | Dart       |        177 |         18 |         15 |        210 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/droptime_repository.dart                       | Dart       |         23 |          0 |          5 |         28 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/friends_repository.dart                        | Dart       |         89 |          3 |         10 |        102 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/likes_repository.dart                          | Dart       |        137 |          4 |         14 |        155 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/misc_functions_repository.dart                 | Dart       |        177 |         15 |         16 |        208 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/storage_repository.dart                        | Dart       |         25 |          0 |          5 |         30 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/venues_repository.dart                         | Dart       |          1 |          0 |          1 |          2 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/app_bars.dart                                | Dart       |         43 |          4 |          4 |         51 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/avatar.dart                                  | Dart       |         34 |          0 |          2 |         36 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/button_dialog.dart                           | Dart       |         53 |          6 |          2 |         61 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/choice_button.dart                           | Dart       |         58 |          0 |          4 |         62 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/continue_button.dart                         | Dart       |         31 |          0 |          2 |         33 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/empty_screen.dart                            | Dart       |         20 |          3 |          2 |         25 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/friend_avatar.dart                           | Dart       |         34 |          2 |          2 |         38 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/friends_widget.dart                          | Dart       |         75 |         22 |          3 |        100 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/generic_black_text_button.dart               | Dart       |         10 |          0 |          2 |         12 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/group_card.dart                              | Dart       |        187 |         46 |         14 |        247 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/group_image_small.dart                       | Dart       |         44 |          1 |          4 |         49 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/input_border.dart                            | Dart       |         12 |          0 |          2 |         14 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/intro_page_skeleton.dart                     | Dart       |         23 |          0 |          2 |         25 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/iphone_image_container.dart                  | Dart       |         35 |          1 |          2 |         38 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/loading_view.dart                            | Dart       |         13 |          0 |          4 |         17 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/match_history_widget.dart                    | Dart       |        138 |         35 |          7 |        180 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/notifications_red_bubble.dart                | Dart       |         25 |          0 |          2 |         27 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/page_loading_view.dart                       | Dart       |         13 |          0 |          2 |         15 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/profile_picture.dart                         | Dart       |         45 |          0 |          2 |         47 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/profile_tile.dart                            | Dart       |          9 |          0 |          2 |         11 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/text_form_field.dart                         | Dart       |         31 |          1 |          3 |         35 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/update_first_blur.dart                       | Dart       |         48 |         25 |          3 |         76 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/user_card.dart                               | Dart       |         53 |          1 |          4 |         58 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/user_image_small.dart                        | Dart       |         44 |          0 |          4 |         48 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/user_image_small_empty_button.dart           | Dart       |         27 |          6 |          4 |         37 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/video.dart                                   | Dart       |         13 |          0 |          2 |         15 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/view_user.dart                               | Dart       |        166 |         11 |          7 |        184 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/main.dart                                                        | Dart       |         80 |          0 |          5 |         85 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/app_view/app_view.dart                       | Dart       |        212 |         41 |         14 |        267 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/app_view/app_view_bloc.dart                  | Dart       |         90 |         35 |         14 |        139 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/app_view/app_view_event.dart                 | Dart       |         26 |          5 |         17 |         48 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/app_view/app_view_state.dart                 | Dart       |         21 |          4 |          5 |         30 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/feed/venue_screen.dart                       | Dart       |         98 |        171 |         10 |        279 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friend_list_screen.dart              | Dart       |        158 |         19 |          8 |        185 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friend_request_screen.dart           | Dart       |        148 |          1 |          9 |        158 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friends_bloc.dart                    | Dart       |        186 |          1 |         19 |        206 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friends_event.dart                   | Dart       |         34 |          0 |         18 |         52 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friends_state.dart                   | Dart       |         48 |          0 |          4 |         52 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friends_view.dart                    | Dart       |        229 |          6 |         12 |        247 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/invite_contacts.dart                 | Dart       |        100 |          1 |          7 |        108 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/likes/likes_bloc.dart                        | Dart       |         66 |         18 |         11 |         95 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/likes/likes_event.dart                       | Dart       |         15 |          9 |         15 |         39 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/likes/likes_state.dart                       | Dart       |         30 |          4 |          4 |         38 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/likes/likes_view.dart                        | Dart       |        377 |         33 |         18 |        428 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/crew/add_third_screen.dart              | Dart       |         61 |          3 |          5 |         69 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/crew/crew_request_bloc.dart             | Dart       |        113 |          0 |         11 |        124 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/crew/crew_request_event.dart            | Dart       |         36 |          1 |         17 |         54 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/crew/crew_request_screen.dart           | Dart       |        442 |         63 |         22 |        527 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/crew/crew_request_state.dart            | Dart       |         37 |          0 |          4 |         41 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/match_list_screen.dart                  | Dart       |         73 |        134 |         10 |        217 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_bloc.dart                          | Dart       |        138 |         24 |         15 |        177 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_event.dart                         | Dart       |         37 |          0 |         19 |         56 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_state.dart                         | Dart       |         76 |          0 |          4 |         80 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_view.dart                          | Dart       |        606 |         21 |         33 |        660 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/edit_profile/edit_profile.dart       | Dart       |        391 |          9 |         25 |        425 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/edit_profile/edit_profile_bloc.dart  | Dart       |        156 |          0 |         23 |        179 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/edit_profile/edit_profile_event.dart | Dart       |         47 |          0 |         26 |         73 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/edit_profile/edit_profile_state.dart | Dart       |         75 |          0 |          7 |         82 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/view_profile/profile_view.dart       | Dart       |        281 |         18 |         14 |        313 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/view_profile/profile_view_bloc.dart  | Dart       |         89 |         26 |          9 |        124 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/view_profile/profile_view_event.dart | Dart       |          8 |          0 |          6 |         14 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/view_profile/profile_view_state.dart | Dart       |         47 |         12 |          5 |         64 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/onboarding/onboarding_cubit.dart                           | Dart       |         31 |          0 |          7 |         38 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/onboarding/onboarding_navigator.dart                       | Dart       |         30 |          0 |          5 |         35 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/onboarding/onboarding_state.dart                           | Dart       |          1 |          0 |          1 |          2 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/onboarding/screens/contacts_screen.dart                    | Dart       |        319 |         10 |         17 |        346 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/onboarding/screens/profile_photo_screen.dart               | Dart       |        150 |          5 |          9 |        164 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/onboarding/screens/update_profile_screen.dart              | Dart       |        193 |          7 |         15 |        215 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/app_intro/intro_page_view.dart             | Dart       |         99 |          0 |          9 |        108 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/app_intro/pages/intro_page_five.dart       | Dart       |         39 |          0 |          8 |         47 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/app_intro/pages/intro_page_four.dart       | Dart       |         39 |          0 |          8 |         47 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/app_intro/pages/intro_page_one.dart        | Dart       |         15 |          0 |          4 |         19 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/app_intro/pages/intro_page_three.dart      | Dart       |         39 |          0 |          8 |         47 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/app_intro/pages/intro_page_two.dart        | Dart       |         35 |          0 |          8 |         43 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/auth_cubit.dart                       | Dart       |         20 |          0 |          7 |         27 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/auth_navigator.dart                   | Dart       |         35 |          6 |          4 |         45 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/auth_state.dart                       | Dart       |         22 |          0 |          4 |         26 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/dob/dob_bloc.dart                     | Dart       |         30 |          3 |          7 |         40 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/dob/dob_event.dart                    | Dart       |          8 |          0 |          6 |         14 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/dob/dob_state.dart                    | Dart       |         54 |          2 |          9 |         65 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/dob/dob_view.dart                     | Dart       |        103 |          4 |          7 |        114 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/name/name_bloc.dart                   | Dart       |         27 |          1 |          8 |         36 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/name/name_event.dart                  | Dart       |          7 |          0 |          5 |         12 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/name/name_state.dart                  | Dart       |         19 |          2 |          5 |         26 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/name/name_view.dart                   | Dart       |         95 |          1 |          7 |        103 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/phone/phone_auth_state.dart           | Dart       |         24 |          0 |          5 |         29 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/phone/phone_bloc.dart                 | Dart       |         40 |          0 |         11 |         51 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/phone/phone_confirmation_screen.dart  | Dart       |         86 |         14 |          6 |        106 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/phone/phone_event.dart                | Dart       |         12 |          1 |          9 |         22 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/phone/phone_state.dart                | Dart       |         24 |          0 |          5 |         29 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/unauthenticated/auth/phone/phone_view.dart                 | Dart       |         98 |          2 |          7 |        107 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/session_navigation/session_cubit.dart                            | Dart       |         74 |          0 |         10 |         84 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/session_navigation/session_navigator.dart                        | Dart       |         47 |          3 |          6 |         56 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/session_navigation/session_state.dart                            | Dart       |         24 |          0 |          6 |         30 |
+| /Users/shanehogan/development/white_ui_supabase4/pubspec.yaml                                                         | YAML       |         37 |         55 |         20 |        112 |
+| /Users/shanehogan/development/white_ui_supabase4/test/widget_test.dart                                                | Dart       |          0 |         24 |          7 |         31 |
+| /Users/shanehogan/development/white_ui_supabase4/web/index.html                                                       | HTML       |         80 |         18 |          7 |        105 |
+| /Users/shanehogan/development/white_ui_supabase4/web/manifest.json                                                    | JSON       |         35 |          0 |          1 |         36 |
+| Total                                                                                                                 |            |     10,669 |      1,213 |      1,074 |     12,956 |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

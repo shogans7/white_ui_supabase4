@@ -1,0 +1,5 @@
+"filename", "language", "Properties", "TypeScript", "SQL", "comment", "blank", "total"
+"/Users/shanehogan/development/white_ui_supabase4/supabase/.env", "Properties", 3, 0, 0, 0, 0, 3
+"/Users/shanehogan/development/white_ui_supabase4/supabase/functions/notify-friend-req/index.ts", "TypeScript", 0, 31, 0, 20, 21, 72
+"/Users/shanehogan/development/white_ui_supabase4/supabase/seed.sql", "SQL", 0, 0, 0, 0, 1, 1
+"Total", "-", 3, 31, 0, 20, 22, 76

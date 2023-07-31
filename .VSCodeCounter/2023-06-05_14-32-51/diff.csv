@@ -1,0 +1,11 @@
+"filename", "language", "Dart", "comment", "blank", "total"
+"/Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/profile.dart", "Dart", 9, 1, 1, 11
+"/Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/auth_repository.dart", "Dart", 13, 0, 0, 13
+"/Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/likes_repository.dart", "Dart", 53, 1, 8, 62
+"/Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/likes/likes_bloc.dart", "Dart", 7, -1, 0, 6
+"/Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/likes/likes_state.dart", "Dart", 1, -1, 0, 0
+"/Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/likes/likes_view.dart", "Dart", 18, -25, -1, -8
+"/Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_bloc.dart", "Dart", 2, 0, 0, 2
+"/Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_state.dart", "Dart", 6, -5, 0, 1
+"/Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_view.dart", "Dart", 15, 1, 1, 17
+"Total", "-", 124, -29, 9, 104

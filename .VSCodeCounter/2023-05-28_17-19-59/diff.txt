@@ -1,0 +1,62 @@
+Date : 2023-05-28 17:19:59
+Directory : /Users/shanehogan/development/white_ui_supabase4
+Total : 23 files,  386 codes, 128 comments, 26 blanks, all 540 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         23 |        386 |        128 |         26 |        540 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         23 |        386 |        128 |         26 |        540 |
+| lib                                                                                                                  |         23 |        386 |        128 |         26 |        540 |
+| lib/auxiliaries                                                                                                      |         10 |        288 |         49 |         29 |        366 |
+| lib/auxiliaries/helpers                                                                                              |          2 |         84 |          1 |         17 |        102 |
+| lib/auxiliaries/models                                                                                               |          3 |         11 |          0 |          0 |         11 |
+| lib/auxiliaries/repos                                                                                                |          1 |          1 |         -1 |          0 |          0 |
+| lib/auxiliaries/widgets                                                                                              |          4 |        192 |         49 |         12 |        253 |
+| lib/pages                                                                                                            |         12 |         96 |         79 |         -3 |        172 |
+| lib/pages/authenticated                                                                                              |         12 |         96 |         79 |         -3 |        172 |
+| lib/pages/authenticated/app_view                                                                                     |          2 |         15 |         15 |          2 |         32 |
+| lib/pages/authenticated/friends                                                                                      |          2 |        189 |         18 |          8 |        215 |
+| lib/pages/authenticated/meet                                                                                         |          5 |       -115 |         36 |        -14 |        -93 |
+| lib/pages/authenticated/profile                                                                                      |          3 |          7 |         10 |          1 |         18 |
+| lib/pages/authenticated/profile/edit_profile                                                                         |          1 |         -3 |          0 |          0 |         -3 |
+| lib/pages/authenticated/profile/view_profile                                                                         |          2 |         10 |         10 |          1 |         21 |
+| lib/session_navigation                                                                                               |          1 |          2 |          0 |          0 |          2 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                             | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/local_functions.dart                        | Dart     |         41 |          0 |          6 |         47 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/helpers/scroll_to_hide_widget.dart                  | Dart     |         43 |          1 |         11 |         55 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/like.dart                                    | Dart     |          3 |          0 |          0 |          3 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/match.dart                                   | Dart     |          6 |          0 |          0 |          6 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/models/profile.dart                                 | Dart     |          2 |          0 |          0 |          2 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/repos/auth_repository.dart                          | Dart     |          1 |         -1 |          0 |          0 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/friends_widget.dart                         | Dart     |         75 |         22 |          3 |        100 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/group_card.dart                             | Dart     |         49 |         10 |          4 |         63 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/match_history_widget.dart                   | Dart     |        138 |         45 |          7 |        190 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/auxiliaries/widgets/view_user.dart                              | Dart     |        -70 |        -28 |         -2 |       -100 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/app_view/app_view.dart                      | Dart     |         15 |          0 |          1 |         16 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/app_view/app_view_bloc.dart                 | Dart     |          0 |         15 |          1 |         16 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friend_list_screen.dart             | Dart     |        159 |         18 |          8 |        185 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/friends/friend_request_screen.dart          | Dart     |         30 |          0 |          0 |         30 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/match_list_screen.dart                 | Dart     |         48 |        135 |          7 |        190 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_bloc.dart                         | Dart     |         41 |        -51 |         -3 |        -13 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_event.dart                        | Dart     |        -13 |        -25 |        -14 |        -52 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_state.dart                        | Dart     |         12 |          0 |          0 |         12 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/meet/meet_view.dart                         | Dart     |       -203 |        -23 |         -4 |       -230 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/edit_profile/edit_profile.dart      | Dart     |         -3 |          0 |          0 |         -3 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/view_profile/profile_view.dart      | Dart     |          4 |         10 |          1 |         15 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/pages/authenticated/profile/view_profile/profile_view_bloc.dart | Dart     |          6 |          0 |          0 |          6 |
+| /Users/shanehogan/development/white_ui_supabase4/lib/session_navigation/session_cubit.dart                           | Dart     |          2 |          0 |          0 |          2 |
+| Total                                                                                                                |          |        386 |        128 |         26 |        540 |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
